@@ -5,7 +5,7 @@
 */
 
 skel.init({
-	prefix: '/assets/css/style',
+	prefix: '{{ "/assets/css/style" | absolute_url }}',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
