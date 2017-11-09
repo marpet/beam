@@ -5,6 +5,8 @@
 */
 
 skel.init({
+	//TODO
+	// unfortunately the filtering seeems not to work here. So I need to use the absolute URL
 	prefix: 'http://marpet.github.io/beam/assets/css/style',
 	resetCSS: true,
 	boxModel: 'border',
