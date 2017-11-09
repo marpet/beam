@@ -5,7 +5,7 @@
 */
 
 skel.init({
-	prefix: '{{ "/assets/css/style" | absolute_url }}',
+	prefix: 'http://marpet.github.io/beam/assets/css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
