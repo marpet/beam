@@ -1,14 +1,15 @@
+---
+---
 /*
-	Linear by TEMPLATED
+    Linear by TEMPLATED
     templated.co @templatedco
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
 skel.init({
-	//TODO
-	// unfortunately the filtering seeems not to work here. So I need to use the absolute URL
-	prefix: 'http://marpet.github.io/beam/assets/css/style',
-	resetCSS: true,
+    prefix: '{{site.baseurl}}/assets/css/style',
+
+    resetCSS: true,
 	boxModel: 'border',
 	grid: {
 		gutters: 50
